@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.AnchorFree.hydra-vpn-android:openvpn-transport:0.18.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/446107d1bac853564f5e07bd0b317400/jetified-openvpn-transport-0.18.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9a5a8c0cda89816a8caad02a61f2eabe/jetified-openvpn-transport-0.18.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9a5a8c0cda89816a8caad02a61f2eabe/jetified-openvpn-transport-0.18.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9a5a8c0cda89816a8caad02a61f2eabe/jetified-openvpn-transport-0.18.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b28b8d7742917ff8c34d7d99fd5f3f4a/jetified-openvpn-transport-0.18.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b28b8d7742917ff8c34d7d99fd5f3f4a/jetified-openvpn-transport-0.18.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b28b8d7742917ff8c34d7d99fd5f3f4a/jetified-openvpn-transport-0.18.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/89c060ec999171e0e191741b61f5fd37/jetified-openvpn-transport-0.18.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/89c060ec999171e0e191741b61f5fd37/jetified-openvpn-transport-0.18.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/89c060ec999171e0e191741b61f5fd37/jetified-openvpn-transport-0.18.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

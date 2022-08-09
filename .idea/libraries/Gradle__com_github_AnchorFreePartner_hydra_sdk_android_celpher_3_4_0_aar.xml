@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:celpher:3.4.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8126702a9121d92a1797c0ca31046cae/jetified-celpher-3.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8bfa5d1c49bc26d4ee49dbd3df57b978/jetified-celpher-3.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8bfa5d1c49bc26d4ee49dbd3df57b978/jetified-celpher-3.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8bfa5d1c49bc26d4ee49dbd3df57b978/jetified-celpher-3.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/97f550e378d54622f1b0e34cb1ff5ea4/jetified-celpher-3.4.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/97f550e378d54622f1b0e34cb1ff5ea4/jetified-celpher-3.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/97f550e378d54622f1b0e34cb1ff5ea4/jetified-celpher-3.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea7ace2b7f3bf02d1cb3747fe9b28213/jetified-celpher-3.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea7ace2b7f3bf02d1cb3747fe9b28213/jetified-celpher-3.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea7ace2b7f3bf02d1cb3747fe9b28213/jetified-celpher-3.4.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

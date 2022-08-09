@@ -1,0 +1,615 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lunar.bestVPN"
+4    android:versionCode="3"
+5    android:versionName="2.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:6:5-78
+11-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:7:5-75
+12-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:7:22-73
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:8:5-67
+13-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:9:5-77
+14-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:9:22-74
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:8:5-67
+15-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:8:22-64
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:8:5-67
+16-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:8:22-64
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:8:5-67
+17-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:8:22-64
+18    <uses-permission android:name="com.android.vending.BILLING" />
+18-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:13:5-67
+18-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:13:22-64
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:8:5-67
+19-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:8:22-64
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->[com.github.pepperonas:materialdialog:0.3.4] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\5e812c55e1ae31894274f8a39c82776b\jetified-materialdialog-0.3.4\AndroidManifest.xml:26:5-80
+20-->[com.github.pepperonas:materialdialog:0.3.4] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\5e812c55e1ae31894274f8a39c82776b\jetified-materialdialog-0.3.4\AndroidManifest.xml:26:22-77
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->[com.github.pepperonas:materialdialog:0.3.4] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\5e812c55e1ae31894274f8a39c82776b\jetified-materialdialog-0.3.4\AndroidManifest.xml:27:5-81
+21-->[com.github.pepperonas:materialdialog:0.3.4] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\5e812c55e1ae31894274f8a39c82776b\jetified-materialdialog-0.3.4\AndroidManifest.xml:27:22-78
+22    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- Android package visibility setting -->
+22-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:25:5-79
+22-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:25:22-76
+23    <queries>
+23-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:28:5-44:15
+24
+25        <!-- For browser content -->
+26        <intent>
+26-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:31:9-37:18
+27            <action android:name="android.intent.action.VIEW" />
+27-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:32:13-65
+27-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:32:21-62
+28
+29            <category android:name="android.intent.category.BROWSABLE" />
+29-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:34:13-74
+29-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:34:23-71
+30
+31            <data android:scheme="https" />
+31-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:36:13-44
+31-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:36:19-41
+32        </intent>
+33        <!-- End of browser content -->
+34        <!-- For CustomTabsService -->
+35        <intent>
+35-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:40:9-42:18
+36            <action android:name="android.support.customtabs.action.CustomTabsService" />
+36-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:41:13-90
+36-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:41:21-87
+37        </intent>
+38        <!-- End of CustomTabsService -->
+39        <package android:name="com.facebook.katana" />
+39-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\23303a30d4562045b46e606d97e339e2\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:12:9-55
+39-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\23303a30d4562045b46e606d97e339e2\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:12:18-52
+40    </queries>
+41
+42    <uses-permission android:name="android.permission.WAKE_LOCK" />
+42-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.3] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\e450b68bd02f56d8a83c9ba2e3f29d05\jetified-play-services-measurement-sdk-api-18.0.3\AndroidManifest.xml:25:5-68
+42-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.3] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\e450b68bd02f56d8a83c9ba2e3f29d05\jetified-play-services-measurement-sdk-api-18.0.3\AndroidManifest.xml:25:22-65
+43    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+43-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:27:5-81
+43-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:27:22-78
+44
+45    <application
+45-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:17:5-50:19
+46        android:name="com.lunar.bestVPN.MainApplication"
+46-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:18:9-57
+47        android:allowBackup="true"
+47-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:19:9-35
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f0a580b2eeb4f2661868eb5ef33e7fa6\core-1.7.0\AndroidManifest.xml:24:18-86
+49        android:debuggable="true"
+50        android:icon="@mipmap/ic_launcher"
+50-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:20:9-43
+51        android:label="@string/app_name"
+51-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:21:9-41
+52        android:networkSecurityConfig="@xml/sdk_captive_portal_network_security"
+52-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:18:9-81
+53        android:roundIcon="@mipmap/ic_launcher_round"
+53-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:22:9-54
+54        android:supportsRtl="true"
+54-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:23:9-35
+55        android:testOnly="true"
+56        android:theme="@style/AppTheme" >
+56-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:24:9-40
+57        <activity
+57-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:28:9-37:20
+58            android:name="com.lunar.bestVPN.activity.SplashActivity"
+58-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:29:13-69
+59            android:exported="true"
+59-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:31:13-36
+60            android:theme="@style/splashTheme" >
+60-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:30:13-47
+61            <intent-filter>
+61-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:32:13-36:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:33:17-69
+62-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:33:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:35:17-77
+64-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:35:27-74
+65            </intent-filter>
+66        </activity>
+67        <activity android:name="com.lunar.bestVPN.activity.About" />
+67-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:38:9-69
+67-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:38:19-66
+68        <activity android:name="com.lunar.bestVPN.activity.Faq" /> <!-- google ads -->
+68-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:39:9-67
+68-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:39:19-64
+69        <meta-data
+69-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:40:9-42:52
+70            android:name="com.google.android.gms.ads.APPLICATION_ID"
+70-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:41:13-69
+71            android:value="@string/admob_app_id" />
+71-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:42:13-49
+72        <meta-data
+72-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:43:9-45:36
+73            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+73-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:44:13-69
+74            android:value="true" />
+74-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:45:13-33
+75
+76        <activity
+76-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:47:9-49:15
+77            android:name="com.lunar.bestVPN.activity.MainActivity"
+77-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:47:19-73
+78            android:launchMode="singleTask" />
+78-->D:\Working\Try\Lunar\Projects\BestVPN\app\src\main\AndroidManifest.xml:48:13-44
+79
+80        <meta-data
+80-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\dc7d782d4770dcd63ca42a1db3bd8a8b\jetified-sdk-3.4.0\AndroidManifest.xml:12:9-14:63
+81            android:name="com.anchorfree.sdk.transports"
+81-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\dc7d782d4770dcd63ca42a1db3bd8a8b\jetified-sdk-3.4.0\AndroidManifest.xml:13:13-57
+82            android:resource="@raw/hydra_transports_config" />
+82-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\dc7d782d4770dcd63ca42a1db3bd8a8b\jetified-sdk-3.4.0\AndroidManifest.xml:14:13-60
+83        <meta-data
+83-->[com.github.AnchorFreePartner.hydra-sdk-android:openvpn:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\207970a305244f4f6dc699c87ed2d92a\jetified-openvpn-3.4.0\AndroidManifest.xml:12:9-14:58
+84            android:name="com.anchorfree.vpnsdk.vpn_config.openvpn"
+84-->[com.github.AnchorFreePartner.hydra-sdk-android:openvpn:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\207970a305244f4f6dc699c87ed2d92a\jetified-openvpn-3.4.0\AndroidManifest.xml:13:13-68
+85            android:resource="@raw/openvpn_vpn_config" />
+85-->[com.github.AnchorFreePartner.hydra-sdk-android:openvpn:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\207970a305244f4f6dc699c87ed2d92a\jetified-openvpn-3.4.0\AndroidManifest.xml:14:13-55
+86        <meta-data
+86-->[com.github.AnchorFreePartner.hydra-sdk-android:hydra:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\5d4a11041a2030f5df5d518832bd2653\jetified-hydra-3.4.0\AndroidManifest.xml:12:9-14:56
+87            android:name="com.anchorfree.vpnsdk.vpn_config.hydra"
+87-->[com.github.AnchorFreePartner.hydra-sdk-android:hydra:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\5d4a11041a2030f5df5d518832bd2653\jetified-hydra-3.4.0\AndroidManifest.xml:13:13-66
+88            android:resource="@raw/hydra_vpn_config" />
+88-->[com.github.AnchorFreePartner.hydra-sdk-android:hydra:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\5d4a11041a2030f5df5d518832bd2653\jetified-hydra-3.4.0\AndroidManifest.xml:14:13-53
+89
+90        <provider
+90-->[com.github.AnchorFreePartner.hydra-sdk-android:hydra:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\5d4a11041a2030f5df5d518832bd2653\jetified-hydra-3.4.0\AndroidManifest.xml:16:9-20:37
+91            android:name="com.anchorfree.sdk.HydraTransportInitProvider"
+91-->[com.github.AnchorFreePartner.hydra-sdk-android:hydra:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\5d4a11041a2030f5df5d518832bd2653\jetified-hydra-3.4.0\AndroidManifest.xml:17:13-73
+92            android:authorities="com.lunar.bestVPN.sdk.transport.hydra"
+92-->[com.github.AnchorFreePartner.hydra-sdk-android:hydra:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\5d4a11041a2030f5df5d518832bd2653\jetified-hydra-3.4.0\AndroidManifest.xml:18:13-71
+93            android:exported="false"
+93-->[com.github.AnchorFreePartner.hydra-sdk-android:hydra:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\5d4a11041a2030f5df5d518832bd2653\jetified-hydra-3.4.0\AndroidManifest.xml:19:13-37
+94            android:initOrder="1" />
+94-->[com.github.AnchorFreePartner.hydra-sdk-android:hydra:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\5d4a11041a2030f5df5d518832bd2653\jetified-hydra-3.4.0\AndroidManifest.xml:20:13-34
+95        <provider
+95-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:20:9-24:37
+96            android:name="com.anchorfree.sdk.DBProvider"
+96-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:21:13-57
+97            android:authorities="com.lunar.bestVPN.hydra.sdk.db.provider"
+97-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:22:13-73
+98            android:exported="false"
+98-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:23:13-37
+99            android:initOrder="1" />
+99-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:24:13-34
+100
+101        <meta-data
+101-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:26:9-28:55
+102            android:name="com.anchorfree.vpnsdk.vpn_config"
+102-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:27:13-60
+103            android:resource="@raw/core_vpn_config" />
+103-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:28:13-52
+104
+105        <provider
+105-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:30:9-34:39
+106            android:name="com.anchorfree.sdk.UnifiedSDKInitProviderMain"
+106-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:31:13-73
+107            android:authorities="com.lunar.bestVPN.anchorfree.sdk.init.provider"
+107-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:32:13-80
+108            android:exported="false"
+108-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:33:13-37
+109            android:initOrder="100" />
+109-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:34:13-36
+110        <provider
+110-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:35:9-40:58
+111            android:name="com.anchorfree.sdk.UnifiedSDKInitProviderVpn"
+111-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:36:13-72
+112            android:authorities="com.lunar.bestVPN.anchorfree.sdk.init.provider.vpn"
+112-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:37:13-84
+113            android:exported="false"
+113-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:38:13-37
+114            android:initOrder="100"
+114-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:39:13-36
+115            android:process="@string/vpn_process_name" />
+115-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\acf0d877842ef5c1bf00e731ca03bcba\jetified-sdk-core-3.4.0\AndroidManifest.xml:40:13-55
+116
+117        <service
+117-->[com.github.AnchorFree.hydra-vpn-android:hydratransport:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\db067fdfab5c792444322ff16167c049\jetified-hydratransport-0.18.2\AndroidManifest.xml:12:9-15:19
+118            android:name="com.anchorfree.vpnsdk.transporthydra.proxyservice.HydraProxyService"
+118-->[com.github.AnchorFree.hydra-vpn-android:hydratransport:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\db067fdfab5c792444322ff16167c049\jetified-hydratransport-0.18.2\AndroidManifest.xml:13:13-95
+119            android:permission="android.permission.BIND_VPN_SERVICE" >
+119-->[com.github.AnchorFree.hydra-vpn-android:hydratransport:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\db067fdfab5c792444322ff16167c049\jetified-hydratransport-0.18.2\AndroidManifest.xml:14:13-69
+120        </service>
+121        <service
+121-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-notifications:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\d5f61c5dfc9efd6ae6ffdfce8c0775e5\jetified-sdk-notifications-3.4.0\AndroidManifest.xml:12:9-15:58
+122            android:name="com.anchorfree.sdk.SdkNotificationService"
+122-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-notifications:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\d5f61c5dfc9efd6ae6ffdfce8c0775e5\jetified-sdk-notifications-3.4.0\AndroidManifest.xml:13:13-69
+123            android:exported="false"
+123-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-notifications:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\d5f61c5dfc9efd6ae6ffdfce8c0775e5\jetified-sdk-notifications-3.4.0\AndroidManifest.xml:14:13-37
+124            android:process="@string/vpn_process_name" />
+124-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-notifications:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\d5f61c5dfc9efd6ae6ffdfce8c0775e5\jetified-sdk-notifications-3.4.0\AndroidManifest.xml:15:13-55
+125
+126        <provider
+126-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\46d5737947219b68b82e0195b3a814b6\jetified-ucr-analytics-3.4.0\AndroidManifest.xml:15:9-21:20
+127            android:name="com.anchorfree.ucr.UCRContentProvider"
+127-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\46d5737947219b68b82e0195b3a814b6\jetified-ucr-analytics-3.4.0\AndroidManifest.xml:16:13-65
+128            android:authorities="com.lunar.bestVPN.ucr.provider"
+128-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\46d5737947219b68b82e0195b3a814b6\jetified-ucr-analytics-3.4.0\AndroidManifest.xml:17:13-64
+129            android:enabled="true"
+129-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\46d5737947219b68b82e0195b3a814b6\jetified-ucr-analytics-3.4.0\AndroidManifest.xml:18:13-35
+130            android:exported="false"
+130-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\46d5737947219b68b82e0195b3a814b6\jetified-ucr-analytics-3.4.0\AndroidManifest.xml:19:13-37
+131            android:multiprocess="false" >
+131-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\46d5737947219b68b82e0195b3a814b6\jetified-ucr-analytics-3.4.0\AndroidManifest.xml:20:13-41
+132        </provider>
+133
+134        <service
+134-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\46d5737947219b68b82e0195b3a814b6\jetified-ucr-analytics-3.4.0\AndroidManifest.xml:23:9-27:19
+135            android:name="com.anchorfree.ucr.UCRService"
+135-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\46d5737947219b68b82e0195b3a814b6\jetified-ucr-analytics-3.4.0\AndroidManifest.xml:24:13-57
+136            android:enabled="true"
+136-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\46d5737947219b68b82e0195b3a814b6\jetified-ucr-analytics-3.4.0\AndroidManifest.xml:25:13-35
+137            android:exported="false" >
+137-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\46d5737947219b68b82e0195b3a814b6\jetified-ucr-analytics-3.4.0\AndroidManifest.xml:26:13-37
+138        </service>
+139
+140        <activity
+140-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:16:9-21:75
+141            android:name="com.anchorfree.vpnsdk.vpnservice.StartVPNServiceShadowActivity"
+141-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:17:13-90
+142            android:label="@string/app_name"
+142-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:18:13-45
+143            android:launchMode="singleTask"
+143-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:19:13-44
+144            android:process="@string/vpn_process_name"
+144-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:20:13-55
+145            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+145-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:21:13-72
+146
+147        <provider
+147-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:23:9-26:40
+148            android:name="com.anchorfree.vpnsdk.vpnservice.config.VpnConfigProvider"
+148-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:24:13-85
+149            android:authorities="com.lunar.bestVPN.vpn_config"
+149-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:25:13-62
+150            android:exported="false" />
+150-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:26:13-37
+151        <provider
+151-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:27:9-30:40
+152            android:name="com.anchorfree.vpnsdk.vpnservice.credentials.CredentialsContentProvider"
+152-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:28:13-99
+153            android:authorities="com.lunar.bestVPN.credentials"
+153-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:29:13-63
+154            android:exported="false" />
+154-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:30:13-37
+155
+156        <service
+156-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:32:9-40:19
+157            android:name="com.anchorfree.vpnsdk.vpnservice.AFVpnService"
+157-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:33:13-73
+158            android:enabled="@bool/vpn_process_enabled"
+158-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:34:13-56
+159            android:permission="android.permission.BIND_VPN_SERVICE"
+159-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:35:13-69
+160            android:process="@string/vpn_process_name" >
+160-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:36:13-55
+161            <intent-filter>
+161-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:37:13-39:29
+162                <action android:name="android.net.VpnService" />
+162-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:38:17-65
+162-->[com.github.AnchorFree.hydra-vpn-android:corevpn:0.18.2] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\ad7e41ec709dede6e3c1696d106149bd\jetified-corevpn-0.18.2\AndroidManifest.xml:38:25-62
+163            </intent-filter>
+164        </service>
+165
+166        <meta-data
+166-->[com.android.billingclient:billing:4.0.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\53c9faf5859f3becccfa138e61303e3c\jetified-billing-4.0.0\AndroidManifest.xml:13:9-15:37
+167            android:name="com.google.android.play.billingclient.version"
+167-->[com.android.billingclient:billing:4.0.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\53c9faf5859f3becccfa138e61303e3c\jetified-billing-4.0.0\AndroidManifest.xml:14:13-73
+168            android:value="4.0.0" />
+168-->[com.android.billingclient:billing:4.0.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\53c9faf5859f3becccfa138e61303e3c\jetified-billing-4.0.0\AndroidManifest.xml:15:13-34
+169
+170        <activity
+170-->[com.android.billingclient:billing:4.0.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\53c9faf5859f3becccfa138e61303e3c\jetified-billing-4.0.0\AndroidManifest.xml:17:9-21:75
+171            android:name="com.android.billingclient.api.ProxyBillingActivity"
+171-->[com.android.billingclient:billing:4.0.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\53c9faf5859f3becccfa138e61303e3c\jetified-billing-4.0.0\AndroidManifest.xml:18:13-78
+172            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+172-->[com.android.billingclient:billing:4.0.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\53c9faf5859f3becccfa138e61303e3c\jetified-billing-4.0.0\AndroidManifest.xml:19:13-96
+173            android:exported="false"
+173-->[com.android.billingclient:billing:4.0.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\53c9faf5859f3becccfa138e61303e3c\jetified-billing-4.0.0\AndroidManifest.xml:20:13-37
+174            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+174-->[com.android.billingclient:billing:4.0.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\53c9faf5859f3becccfa138e61303e3c\jetified-billing-4.0.0\AndroidManifest.xml:21:13-72
+175        <activity
+175-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:49:9-53:64
+176            android:name="com.google.android.gms.ads.AdActivity"
+176-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:50:13-65
+177            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+177-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:51:13-122
+178            android:exported="false"
+178-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:52:13-37
+179            android:theme="@android:style/Theme.Translucent" />
+179-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:53:13-61
+180
+181        <provider
+181-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:55:9-59:39
+182            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+182-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:56:13-76
+183            android:authorities="com.lunar.bestVPN.mobileadsinitprovider"
+183-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:57:13-73
+184            android:exported="false"
+184-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:58:13-37
+185            android:initOrder="100" />
+185-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:59:13-36
+186
+187        <service
+187-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:61:9-64:40
+188            android:name="com.google.android.gms.ads.AdService"
+188-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:62:13-64
+189            android:enabled="true"
+189-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:63:13-35
+190            android:exported="false" />
+190-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\9c9434412c0ebf5ba76c545d10be0c30\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:64:13-37
+191
+192        <activity
+192-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\23303a30d4562045b46e606d97e339e2\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:19:9-23:75
+193            android:name="com.facebook.ads.AudienceNetworkActivity"
+193-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\23303a30d4562045b46e606d97e339e2\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:20:13-68
+194            android:configChanges="keyboardHidden|orientation|screenSize"
+194-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\23303a30d4562045b46e606d97e339e2\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:21:13-74
+195            android:exported="false"
+195-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\23303a30d4562045b46e606d97e339e2\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:22:13-37
+196            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+196-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\23303a30d4562045b46e606d97e339e2\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:23:13-72
+197
+198        <provider
+198-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\23303a30d4562045b46e606d97e339e2\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:25:9-28:40
+199            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+199-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\23303a30d4562045b46e606d97e339e2\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:26:13-75
+200            android:authorities="com.lunar.bestVPN.AudienceNetworkContentProvider"
+200-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\23303a30d4562045b46e606d97e339e2\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:27:13-82
+201            android:exported="false" />
+201-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\23303a30d4562045b46e606d97e339e2\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:28:13-37
+202
+203        <activity
+203-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\1ee921a20df326f4777da0bfd93810f7\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+204            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+204-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\1ee921a20df326f4777da0bfd93810f7\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+205            android:exported="false"
+205-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\1ee921a20df326f4777da0bfd93810f7\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+206            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+206-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\1ee921a20df326f4777da0bfd93810f7\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+207
+208        <meta-data
+208-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f3df690905d29d666efd3bc1aec7fe54\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+209            android:name="com.google.android.gms.version"
+209-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f3df690905d29d666efd3bc1aec7fe54\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+210            android:value="@integer/google_play_services_version" />
+210-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f3df690905d29d666efd3bc1aec7fe54\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+211
+212        <provider
+212-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\4bfd6870f02efa565cc95e1f810d61eb\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+213            android:name="androidx.startup.InitializationProvider"
+213-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\4bfd6870f02efa565cc95e1f810d61eb\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+214            android:authorities="com.lunar.bestVPN.androidx-startup"
+214-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\4bfd6870f02efa565cc95e1f810d61eb\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+215            android:exported="false" >
+215-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\4bfd6870f02efa565cc95e1f810d61eb\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+216            <meta-data
+216-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\4bfd6870f02efa565cc95e1f810d61eb\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+217                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+217-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\4bfd6870f02efa565cc95e1f810d61eb\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+218                android:value="androidx.startup" />
+218-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\4bfd6870f02efa565cc95e1f810d61eb\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+219            <meta-data
+219-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
+220                android:name="androidx.work.WorkManagerInitializer"
+220-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
+221                android:value="androidx.startup" />
+221-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
+222            <meta-data
+222-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\79a1973f6fe867d77e2c3cc6a52d4204\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+223                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+223-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\79a1973f6fe867d77e2c3cc6a52d4204\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+224                android:value="androidx.startup" />
+224-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\79a1973f6fe867d77e2c3cc6a52d4204\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+225        </provider>
+226
+227        <service
+227-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
+228            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+228-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
+229            android:directBootAware="false"
+229-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
+230            android:enabled="@bool/enable_system_alarm_service_default"
+230-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
+231            android:exported="false" />
+231-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
+232        <service
+232-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
+233            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+233-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
+234            android:directBootAware="false"
+234-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
+235            android:enabled="@bool/enable_system_job_service_default"
+235-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
+236            android:exported="true"
+236-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
+237            android:permission="android.permission.BIND_JOB_SERVICE" />
+237-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
+238        <service
+238-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
+239            android:name="androidx.work.impl.foreground.SystemForegroundService"
+239-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
+240            android:directBootAware="false"
+240-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
+241            android:enabled="@bool/enable_system_foreground_service_default"
+241-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
+242            android:exported="false" />
+242-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
+243
+244        <receiver
+244-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
+245            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+245-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
+246            android:directBootAware="false"
+246-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
+247            android:enabled="true"
+247-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
+248            android:exported="false" />
+248-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
+249        <receiver
+249-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
+250            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+250-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
+251            android:directBootAware="false"
+251-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
+252            android:enabled="false"
+252-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
+253            android:exported="false" >
+253-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
+254            <intent-filter>
+254-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
+255                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+255-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
+255-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
+256                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+256-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
+256-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
+257            </intent-filter>
+258        </receiver>
+259        <receiver
+259-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
+260            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+260-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
+261            android:directBootAware="false"
+261-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
+262            android:enabled="false"
+262-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
+263            android:exported="false" >
+263-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
+264            <intent-filter>
+264-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
+265                <action android:name="android.intent.action.BATTERY_OKAY" />
+265-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
+265-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
+266                <action android:name="android.intent.action.BATTERY_LOW" />
+266-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
+266-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
+267            </intent-filter>
+268        </receiver>
+269        <receiver
+269-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
+270            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+270-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
+271            android:directBootAware="false"
+271-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
+272            android:enabled="false"
+272-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
+273            android:exported="false" >
+273-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
+274            <intent-filter>
+274-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
+275                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+275-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
+275-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
+276                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+276-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
+276-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
+277            </intent-filter>
+278        </receiver>
+279        <receiver
+279-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
+280            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+280-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
+281            android:directBootAware="false"
+281-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
+282            android:enabled="false"
+282-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
+283            android:exported="false" >
+283-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
+284            <intent-filter>
+284-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
+285                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+285-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
+285-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
+286            </intent-filter>
+287        </receiver>
+288        <receiver
+288-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
+289            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+289-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
+290            android:directBootAware="false"
+290-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
+291            android:enabled="false"
+291-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
+292            android:exported="false" >
+292-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
+293            <intent-filter>
+293-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
+294                <action android:name="android.intent.action.BOOT_COMPLETED" />
+294-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
+294-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
+295                <action android:name="android.intent.action.TIME_SET" />
+295-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
+295-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
+296                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+296-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
+296-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
+297            </intent-filter>
+298        </receiver>
+299        <receiver
+299-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
+300            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+300-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
+301            android:directBootAware="false"
+301-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
+302            android:enabled="@bool/enable_system_alarm_service_default"
+302-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
+303            android:exported="false" >
+303-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
+304            <intent-filter>
+304-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
+305                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+305-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
+305-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
+306            </intent-filter>
+307        </receiver>
+308        <receiver
+308-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
+309            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+309-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
+310            android:directBootAware="false"
+310-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
+311            android:enabled="true"
+311-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
+312            android:exported="true"
+312-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
+313            android:permission="android.permission.DUMP" >
+313-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
+314            <intent-filter>
+314-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
+315                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+315-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
+315-->[androidx.work:work-runtime:2.7.0] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\f488c90a16f3221ea6c5c52202b0030f\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
+316            </intent-filter>
+317        </receiver>
+318
+319        <service
+319-->[androidx.room:room-runtime:2.2.5] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\90207a07677aa5543986773004601327\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+320            android:name="androidx.room.MultiInstanceInvalidationService"
+320-->[androidx.room:room-runtime:2.2.5] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\90207a07677aa5543986773004601327\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+321            android:directBootAware="true"
+321-->[androidx.room:room-runtime:2.2.5] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\90207a07677aa5543986773004601327\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+322            android:exported="false" />
+322-->[androidx.room:room-runtime:2.2.5] C:\Users\Tharindu Dasun\.gradle\caches\transforms-2\files-2.1\90207a07677aa5543986773004601327\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+323    </application>
+324
+325</manifest>

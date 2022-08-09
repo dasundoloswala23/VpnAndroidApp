@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:sdk-notifications:3.4.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d2a2ee3418ee9c4070dde7be42ea3f5a/jetified-sdk-notifications-3.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5f61c5dfc9efd6ae6ffdfce8c0775e5/jetified-sdk-notifications-3.4.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5f61c5dfc9efd6ae6ffdfce8c0775e5/jetified-sdk-notifications-3.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5f61c5dfc9efd6ae6ffdfce8c0775e5/jetified-sdk-notifications-3.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d66db8ba4f1c1037f857c96aa54a6030/jetified-sdk-notifications-3.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d66db8ba4f1c1037f857c96aa54a6030/jetified-sdk-notifications-3.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d66db8ba4f1c1037f857c96aa54a6030/jetified-sdk-notifications-3.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2eb4ac7bcfdabd435c3e70589971cd65/jetified-sdk-notifications-3.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2eb4ac7bcfdabd435c3e70589971cd65/jetified-sdk-notifications-3.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2eb4ac7bcfdabd435c3e70589971cd65/jetified-sdk-notifications-3.4.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
